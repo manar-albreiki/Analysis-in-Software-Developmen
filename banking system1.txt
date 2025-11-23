@@ -1,0 +1,62 @@
+                                +---------------------------+
+                                |      Banking System       |
+                                +---------------------------+
+                                           |
+       ------------------------------------------------------------------
+       |                                                                |
++--------------------+                                         +--------------------+
+| Customer Features  |                                         | Admin Features     |
++--------------------+                                         +--------------------+
+       |                                                                |
+  ------------------                                             ------------------
+  |        |       |                                             |        |       |
+  | Account Mgmt    |                                             | Loan Mgmt         |
+  |  - Create Acc   |                                             | - Approve Loans   |
+  |  - Login        |                                             | - Freeze Acc      |
+  |  - View Bal     |                                             | - Generate Reports|
+  |  - Change Pwd   |                                             +------------------+
+  ------------------                                                 |
+       |                                                           ----------------
+  ------------------                                               | Security & Audit|
+  | Transactions     |                                             | - OTP Checks    |
+  | - Transfers      |                                             | - Activity Logs |
+  | - Bill Payments  |                                             +----------------+
+  | - Recurring Pmts |
+  ------------------
+       |
+  ------------------
+  | Notifications   |
+  | - SMS / Email   |
+  | - Transaction   |
+  ------------------
+
+------------------------------
+| Product Backlog & Estimation|
+------------------------------
+| User Story ID | Feature           | Story Points | Priority |
+|---------------|-----------------|--------------|---------|
+| 1             | Create Account    | 5            | High    |
+| 2             | Login             | 8            | Must    |
+| 3             | View Balance      | 3            | High    |
+| 4             | Transfer Money    | 13           | Must    |
+| 5             | Request Debit Card| 5            | Medium  |
+| 6             | Apply Loan        | 13           | Medium  |
+| 7             | Download Statement| 8            | High    |
+| 8             | Approve Loan      | 8            | High    |
+| 9             | Freeze Account    | 13           | Must    |
+| 10            | OTP Transactions  | 5            | Must    |
+| 11            | Auto Bill Pay     | 8            | Medium  |
+| 12            | Transaction Alert | 3            | High    |
+| 13            | Change Password   | 3            | High    |
+| 14            | Generate Reports  | 8            | Medium  |
+| 15            | Link Accounts     | 5            | Medium  |
+
+------------------------------
+| Acceptance Criteria Sample |
+------------------------------
+- Create Account: User can register with valid info; email verified; confirmation sent.
+- Login: Username/password required; OTP enabled; error shown for invalid credentials.
+- Transfer Money: Destination valid; OTP confirmation; balances updated.
+- Download Statement: PDF generated with accurate transactions.
+- Freeze Account: Admin can freeze account; transactions blocked; audit logged.
+

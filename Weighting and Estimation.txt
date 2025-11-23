@@ -1,0 +1,26 @@
+Weighting and estimation in Agile software development are essential practices used to determine the effort, complexity, and uncertainty of user stories. Instead of relying on exact time measurements, Agile teams use abstract values known as story points, which help estimate how difficult or time-consuming a task may be. Story points allow teams to consider multiple factors such as complexity, technical uncertainty, and required work effort rather than focusing on hours, which can often be inaccurate and restrictive in early planning phases.
+
+Story point estimation techniques help teams compare tasks relative to each other. One popular method is Planning Poker, where each team member privately selects a number that represents their estimate (often from the Fibonacci scale: 1, 2, 3, 5, 8, 13...). After revealing the estimates, the team discusses differences and aligns on a final agreed value. Another method, T-Shirt Sizing, uses ranges like XS, S, M, L, and XL to quickly categorize user stories based on perceived effort. This method is useful in early project stages when details are unclear. Other estimation techniques may include the Bucket System, Dot Voting, or Affinity Estimation, depending on the project size and team preferences.
+
+Weighting user stories also involves evaluating priority and business value. A story may require high effort but deliver little value, while another may be small but highly impactful. For this reason, product owners and development teams work together to balance estimation with prioritization. Stories are often ranked based on urgency, user importance, technical dependencies, and alignment with strategic goals. Considerations may include technical complexity, number of modules affected, integration required, and risk level.
+
+Estimation provides teams with a realistic foundation for sprint planning, capacity allocation, and release forecasting. It also encourages collaboration and discussion, ensuring everyone has a shared understanding of work requirements. When done consistently, weighting and estimation lead to predictable delivery cycles, reduced risk, and improved planning accuracy across the development process.
++---------------------------+----------------------------------------------+
+| Technique                | Description                                   |
++---------------------------+----------------------------------------------+
+| Planning Poker           | Team members select story points privately   |
+|                          | then discuss and agree on one final value.   |
++---------------------------+----------------------------------------------+
+| T-Shirt Sizing           | Uses sizes (XS, S, M, L, XL) instead of      |
+|                          | numbers for quick estimation.                |
++---------------------------+----------------------------------------------+
+| Fibonacci Scale          | Estimates based on growing values            |
+|                          | (1, 2, 3, 5, 8, 13...) to reflect increasing |
+|                          | complexity and uncertainty.                  |
++---------------------------+----------------------------------------------+
+| Affinity Estimation      | Stories are grouped by similarity to quickly |
+|                          | assign sizes without detailed discussion.    |
++---------------------------+----------------------------------------------+
+| Bucket System            | Stories are placed into predefined point     |
+|                          | buckets for rapid sorting and estimation.    |
++---------------------------+----------------------------------------------+

@@ -1,0 +1,129 @@
+A Product Backlog is a dynamic, ordered list of all the tasks, features, enhancements, and fixes required to develop and improve a product. It acts as the single source of work for the Scrum team and evolves throughout the lifecycle of the project. Items in the product backlog are commonly written as user stories, but may also include bugs, technical tasks, or research items (known as spikes).
+
+The purpose of the product backlog is to ensure the development team has a clear, prioritized pipeline of work that aligns with business goals and provides maximum value to stakeholders.
+
+Purpose of the Product Backlog
+
+The product backlog serves multiple important functions:
+
+It communicates the scope of the product clearly.
+
+It provides transparency for all stakeholders.
+
+It helps the team plan work for future sprints.
+
+It supports prioritization based on business value, urgency, and user needs.
+
+It evolves as requirements change or new ideas arise.
+
+A well-maintained backlog ensures that the most valuable and important work is addressed first.
+
+How to Create and Structure a Product Backlog
+
+Creating a product backlog begins after high-level requirements are gathered and understood. The steps include:
+
+1. Requirement Breakdown
+
+Large business needs or epics are broken into smaller, manageable items such as features or user stories. This makes tasks easier to estimate, prioritize, and assign.
+
+2. Writing Backlog Items
+
+Items should be written clearly (usually in user story format) and include:
+
+A title
+
+Description
+
+Business value
+
+Story points or estimated effort
+
+Dependencies
+
+Acceptance criteria
+
+3. Structuring the Backlog
+
+A well-structured backlog is organized by:
+
+Priority: Items that deliver the highest value appear at the top.
+
+Execution readiness: Top items are clear, refined, and estimated.
+
+Complexity and dependency order.
+
+Example format:
+
+ID	Backlog Item	Type	Priority	Story Points	Status
+1	Login Feature	User Story	High	5	Ready
+2	Export Report	Feature	Medium	8	Refining
+3	Fix Payment Bug	Bug	High	3	To Do
+Backlog Prioritization Techniques
+
+Prioritization is essential to ensure the most valuable and impactful work is completed early. Common methods include:
+
+1. MoSCoW Method
+
+Must Have
+
+Should Have
+
+Could Have
+
+Won’t Have (for now)
+
+This helps classify items based on business urgency.
+
+2. Value vs Effort Matrix
+
+Items are plotted based on delivery value and estimated effort. High-value, low-effort items are completed first.
+
+3. Kano Model
+
+Classifies features into:
+
+Basic expectations
+
+Performance features
+
+Delight features
+
+This helps identify what will improve customer satisfaction.
+
+4. RICE Scoring
+
+Used especially in product management. RICE stands for:
+
+Reach
+
+Impact
+
+Confidence
+
+Effort
+
+Score = (Reach × Impact × Confidence) ÷ Effort
+
+5. Cost of Delay
+
+Features that cause financial or operational loss when delayed are prioritized higher.
+
+Backlog Refinement and Maintenance
+
+Backlog refinement (also called grooming) is an ongoing process to ensure the backlog remains relevant, accurate, and actionable. Refinement is usually performed once every sprint.
+
+Activities include:
+
+Breaking large items (epics) into user stories
+
+Adding missing details or acceptance criteria
+
+Clarifying requirements with the product owner
+
+Removing outdated or irrelevant items
+
+Updating estimations and priorities
+
+Reordering backlog items based on new business insights
+
+Without regular refinement, the backlog becomes unmanageable, confusing, and difficult to use during sprint planning.

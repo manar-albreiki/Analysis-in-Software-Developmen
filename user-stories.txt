@@ -1,0 +1,98 @@
+Here is the full written section for your next branch named **`user-stories`**. You can paste it directly into your README.md.
+
+---
+
+## **3. User Stories**
+
+User stories are short, simple descriptions of a requirement written from the perspective of the end user. They are one of the core elements of Agile development because they ensure that all work is focused on delivering value to the user rather than building unnecessary technical features. Unlike traditional requirement statements, user stories capture *what* the user needs and *why*, rather than describing technical implementation details.
+
+User stories encourage collaboration, ensure clarity, and act as a communication tool between stakeholders, product owners, and development teams.
+
+---
+
+### **Format of User Stories**
+
+User stories follow a standard and widely accepted template:
+
+> **As a *[type of user]*, I want *[feature or goal]*, so that *[benefit or purpose].***
+
+This structure ensures that every requirement includes:
+
+* **Who** will use the feature
+* **What** they need
+* **Why** they need it
+
+#### **Example**
+
+> *As a customer, I want to view my account balance so that I can track my spending.*
+
+---
+
+### **How to Write Effective User Stories**
+
+Writing effective user stories requires clarity, relevance, and alignment with user and business needs. To ensure quality, user stories should follow the **INVEST model**:
+
++---------+-------------+--------------------------------------------------------------------------+
+| Letter  | Meaning     | Description                                                              |
++---------+-------------+--------------------------------------------------------------------------+
+| I       | Independent | Each user story should stand alone without depending on another story.   |
+| N       | Negotiable  | Stories should remain flexible and open for discussion and refinement.   |
+| V       | Valuable    | The story must deliver value to the user or the business.                |
+| E       | Estimable   | The development team should be able to estimate required effort.         |
+| S       | Small       | The story should be manageable and completed within one sprint.          |
+| T       | Testable    | There must be clear conditions that allow testing and validation.        |
++---------+-------------+--------------------------------------------------------------------------+
+
+Additional best practices when writing user stories:
+
+* Keep the language simple and user-focused.
+* Avoid technical descriptions or implementation instructions.
+* Ensure the user story represents a real-world scenario.
+* Make sure it aligns with project goals and prioritization.
+
+User stories are often accompanied by mockups, workflows, and diagrams to provide clarity when needed.
+
+---
+
+### **Acceptance Criteria**
+
+Acceptance criteria are clear, testable conditions that must be met before a user story is considered complete. They describe **what qualifies the feature as successfully implemented** and ensure the development team and stakeholders share the same understanding.
+
+Acceptance criteria usually follow two common formats:
+
+---
+
+#### **1. Checklist Format Example**
+
+* The user must enter a username and password.
+* The system must validate credentials.
+* The user receives an error message for invalid login.
+* Successful login redirects the user to their dashboard.
+
+---
+
+#### **2. Gherkin Format (Given-When-Then)**
+
+```
+Given the user has an active account,
+When they enter valid login credentials,
+Then the system should log them in and display the dashboard.
+```
+
+---
+
+### **Importance of Acceptance Criteria**
+
+Acceptance criteria are essential for several reasons:
+
+* **Clarity:** They remove ambiguity from requirements.
+* **Quality assurance:** They guide testers in verifying system behavior.
+* **Consistency:** They ensure features meet business and user expectations.
+* **Definition of Done:** They help the team understand when a task is complete.
+* **Risk reduction:** They prevent misunderstandings and unnecessary rework.
+
+Without acceptance criteria, development teams may interpret requirements differently, resulting in incorrect or incomplete functionality.
+
+
+
+
